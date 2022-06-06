@@ -27,13 +27,69 @@ params:
   font:
     name: "Open Sans"
     sizes: [400,600]
+  navbar:
+  - title: About
+    url: /
+#  - title: Pricing
+#    url: /
+  - title: Services
+    sublinks:
+    - title: Backup as a Service
+      url: /services/baas
+    - title: Disaster recovery as a Service
+      url: /services/draas
+    - title: Technical Support
+      url: /services/support
+ # - title: Log in
+ #   url: /
+  - title: Log in
+    url: /
+    button: true
+ # sidebar:
+ #   # Logo (from /images/logos/___.svg)
+ #   logo: fresh-square
+ #   sections:
+ #   - title: User
+ #     icon: user
+ #     links:
+ #     - text: Profile
+ #       url: /
+ #     - text: Account
+ #       url: /
+ #     - text: Settings
+ #       url: /
+ #   - title: Messages
+ #     icon: envelope
+ #     links:
+ #     - text: Inbox
+ #       url: /
+ #     - text: Compose
+ #       url: /
+ #   - title: Images
+ #     icon: image
+ #     links:
+ #     - text: Library
+ #       url: /
+ #     - text: Upload
+ #       url: /
+ #   - title: Settings
+ #     icon: cog
+ #     links:
+ #     - text: User settings
+ #       url: /
+ #     - text: App settings
+ #       url: /
+  ###
+  ### MAIN BODY
+  ###
   hero:
     # Main hero title
-    title: Managed IT Services
+    title: Managed Data Protection Services
     # Hero subtitle (optional)
-    subtitle: Protect your critical data with Backup as a Service (BaaS)
+    subtitle: "We simplify and accelerate the design, build and deployment of Data Protection. 
+    We help customers find the right solution to meet their objectives and provide expert advice to successfully launch services."
     # Button text
-    buttontext: Our services
+    buttontext: Contact us
     # Where the main hero button links to
     buttonlink: "services/"
     # Hero image (from static/images/___)
@@ -46,160 +102,105 @@ params:
 #    - infinite
 #    - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: About
-    url: /
-  - title: Pricing
-    url: /
-  - title: Services
-    sublinks:
-    - title: Backup as a Service
-      url: /
-    - title: Linux server support
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Our Solutions offering
+    subtitle: Data is the fundamental backbone of every company
     tiles:
-    - title: App builder
+    - title: Backup as a Service
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      text: Protect your mission-critical data
+      url: /services/baas
+      buttonText: BaaS
+    - title: Disaster Recovery
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      text: DR services ensure your data is recovered quickly
+      url: /services/draas
+      buttonText: DRaaS
+    - title: Technical Support
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      url: /services/support
+      buttonText: Support
   section2:
-    title: You re here because you want the best
-    subtitle: And we know it
+    title: Our approach
+    subtitle: Managed IT services masters
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: We understand that all businesses have different data requirements
+      text: We take care of your data protection needs, finding modern and adaptable ways to keep your data secure, ensuring continuous access to your data.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
+    - title: Leading technology in place
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Proven experts team
+      text: Fully managed combination of consulting, operations and techincal support to provide an end to end experience. Proven experts team and approach giving you a trusted partner for day to day support of your environment
       icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+#  section3:
+#    title: One platform
+#    subtitle: To rule them all
+#    image: illustrations/mockups/app-mockup.png
+#    buttonText: Get started
+#    buttonLink: "#"
+#  section4:
+#    title: Our Clients love us!
+#    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+#    clients:
+#    - name: Irma Walters
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Accountant
+#      img: 1
+#    - name: John Bradley
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Financial Analyst
+#      img: 2
+#    - name: Gary Blackman
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: HR Manager
+#      img: 3
   section5: true
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
     # Social Media Title
-    socialmediatitle: Follow Us
+#    socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+#    socialmedia:
+#    - link: https://github.com/lucperkins/github-fresh
       # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+ #     icon: github
+ #   - link: https://dribbble.com/#
+ #     icon: dribbble
+ #   - link: https://facebook.com/#
+ #     icon: facebook
+ #   - link: https://twitter.com/lucperkins
+ #     icon: twitter
+ #   - link: https://bitbucket.org/#
+ #     icon: bitbucket
+    bulmalogo: false
     quicklinks:
       column1:
-        title: "Product"
+        title: "Services"
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+        - text: Backup
+          link: /services/baas
+        - text: DR
+          link: /services/draas
+        - text: Support
+          link: /services/support
       column2:
-        title: "Docs"
+        title: ""
         links:
-        - text: Get started
+        - text: 
           link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
+#        - text: User guides
+#          link: /
+#        - text: Admin guide
+#          link: /
+#        - text: Developers
+#          link: /
       column3:
-        title: "Blog"
+        title: ""
         links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+        - text: 
+          link: /
+
