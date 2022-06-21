@@ -22,7 +22,7 @@ params:
   description: InfoAux LLC website
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: /logos/infoAuxlogo.svg
     link: /
   font:
     name: "Open Sans"
@@ -118,7 +118,7 @@ params:
       buttonText: DRaaS
     - title: Technical Support
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: Maintaining service quality to our customers
       url: /services/support
       buttonText: Support
   section2:
@@ -130,7 +130,7 @@ params:
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Leading technology in place
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: Ability to design, build and operate complex technical solutions allows our customers to focus on the elements that really add value to their business.
       icon: doc-sync
     - title: Proven experts team
       text: Fully managed combination of consulting, operations and techincal support to provide an end to end experience. Proven experts team and approach giving you a trusted partner for day to day support of your environment
@@ -160,7 +160,7 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: infoAuxlogo.svg
     # Social Media Title
 #    socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
